@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo-color.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -23,8 +23,8 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import infosys from "./company/infosys.png";
+import neu from "./company/neu.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,8 +54,8 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  infosys,
+  neu,
   carrent,
   jobit,
   tripguide,
