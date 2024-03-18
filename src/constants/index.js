@@ -21,8 +21,9 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
+  aws,
   threejs,
+  amazon,
 } from "../assets";
 
 export const navLinks = [
@@ -42,17 +43,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Databases",
+    title: "Cloud Computing",
+    icon: web,
+  },
+  {
+    title: "Backend Development",
+    icon: backend,
+  },
+  {
+    title: "Database",
     icon: web,
   },
   {
     title: "Frontend Development",
     icon: mobile,
   },
-  {
-    title: "Backend Development",
-    icon: backend,
-  },
+
   // {
   //   title: "Content Creator",
   //   icon: creator,
@@ -115,6 +121,21 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Development Engineer Co-Op",
+    company_name: "Amazon",
+    icon: amazon,
+    iconBg: "#383E56",
+    date: "July 2023 - Dec 2023",
+    points: [
+      "End-to-End Development:Took on the end-to-end development of a user-facing feature for the Genealogy platform, from initial concept through to deployment",
+      "Utilized a robust tech stack including AWS Lambda for serverless backend logic, API Gateway for efficient frontend-backend communication, and React coupled with Redux for a dynamic and responsive frontend experience",
+      "Implemented AWS Lambda functions to handle intricate backend processing, leveraging API Gateway to facilitate real-time data exchange and interactions between the user interface and server",
+      "Crafted a highly responsive user interface using React, integrating Redux for optimal state management, resulting in a fluid and intuitive user experience",
+      "Enabled users to interact with device data in real-time, significantly enhancing the ability to track device history and manage configurations without delays",
+      "Achieved a marked improvement in user satisfaction by providing a fast, reliable, and user-friendly platform, streamlining the process of managing device data and configurations",
+    ],
+  },
   {
     title: "Senior Systems Engineer",
     company_name: "Infosys",
@@ -215,19 +236,19 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ankita-jha/Travel-Recommendation-App",
   },
   {
-    name: "Job IT",
+    name: "K-Means Clustering Algorithm",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This JavaScript project visualizes K-means clustering by generating cluster centers, plotting data points, and differentiating them by color and shape.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
@@ -236,29 +257,29 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ankita-jha/K-MEANS-CLUSTERING",
   },
   {
-    name: "Trip Guide",
+    name: "Cloud Gateway Service",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a scalable AWS infrastructure using CloudFormation templates and a cloud-native back-end application in Node.js,",
     tags: [
       {
-        name: "nextjs",
+        name: "aws",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: aws,
+    source_code_link: "https://github.com/ankita-jha-cloud/webapp",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

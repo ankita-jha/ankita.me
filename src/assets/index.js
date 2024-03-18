@@ -25,10 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import infosys from "./company/infosys.png";
 import neu from "./company/neu.png";
+import amazon from "./company/amazon.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aws from "./aws.png";
 
 export {
   logo,
@@ -55,8 +56,9 @@ export {
   meta,
   shopify,
   infosys,
+  amazon,
   neu,
   carrent,
   jobit,
-  tripguide,
+  aws,
 };
