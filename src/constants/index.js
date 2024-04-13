@@ -128,12 +128,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2023 - Dec 2023",
     points: [
-      "End-to-End Development:Took on the end-to-end development of a user-facing feature for the Genealogy platform, from initial concept through to deployment",
-      "Utilized a robust tech stack including AWS Lambda for serverless backend logic, API Gateway for efficient frontend-backend communication, and React coupled with Redux for a dynamic and responsive frontend experience",
+      "Involved in end to end product development of a user-facing feature for the Genealogy platform, from initial concept through to deployment",
+      "Utilized a tech stack including AWS Lambda for serverless backend logic, API Gateway for efficient frontend-backend communication, and React coupled with Redux for a dynamic and responsive frontend experience",
       "Implemented AWS Lambda functions to handle intricate backend processing, leveraging API Gateway to facilitate real-time data exchange and interactions between the user interface and server",
       "Crafted a highly responsive user interface using React, integrating Redux for optimal state management, resulting in a fluid and intuitive user experience",
-      "Enabled users to interact with device data in real-time, significantly enhancing the ability to track device history and manage configurations without delays",
-      "Achieved a marked improvement in user satisfaction by providing a fast, reliable, and user-friendly platform, streamlining the process of managing device data and configurations",
     ],
   },
   {
