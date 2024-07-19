@@ -47,15 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        
-        
-I'm a software engineer with a Master's in Software Engineering from Northeastern University. Experienced in developing robust applications and systems, with expertise in Java, Python, and cloud technologies like AWS. 
-Interned at Amazon, contributing to real-time monitoring systems for Amazon Robotics. Skilled in full-stack development, with a focus on creating impactful solutions. Ready to tackle new challenges and contribute to innovative projects.
-
-
-
-
-
+I'm a software developer with a Master's in Software Engineering from Northeastern University. With over 3 years of Experience in developing scalable applications and systems, with expertise in Java, Python, React, Angular, and cloud technologies like AWS. 
+Recently, at Amazon Robotics, I worked on serverless architectures and AI analytics.I love solving problems and creating innovative solutions.
 
       </motion.p>
 

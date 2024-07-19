@@ -32,6 +32,13 @@ export const navLinks = [
     title: "About",
   },
   {
+<<<<<<< HEAD
+=======
+    id: "project",
+    title: "Projects",
+  },
+  {
+>>>>>>> ff9a65d (Initial commit)
     id: "work",
     title: "Work",
   },
@@ -276,7 +283,11 @@ const projects = [
       },
     ],
     image: aws,
+<<<<<<< HEAD
     source_code_link: "https://github.com/ankita-jha-cloud/webapp",
+=======
+    source_code_link: "https://github.com/ankita-jha-cloud",
+>>>>>>> ff9a65d (Initial commit)
   },
 ];
 

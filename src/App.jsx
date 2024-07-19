@@ -23,5 +23,9 @@ const App = () => {
     </BrowserRouter>
   );
 }
+<<<<<<< HEAD
 
+=======
+// aa
+>>>>>>> ff9a65d (Initial commit)
 export default App;
