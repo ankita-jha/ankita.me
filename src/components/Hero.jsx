@@ -70,14 +70,15 @@ const Hero = () => {
 
         <div className='flex-1'>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-white'>Ankita</span>
+            Hey, <span className='text-white'> I'm Ankita</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-30`}>
-            Software Engineer | Full Stack Developer | Cloud
+            Software Engineer | Full Stack Engineer | Cloud Engineer 
+            
           </p>
           <br />
           <p className={`${styles.sectionSubText} text-white`}>
-            I'm a software developer with a Master's in Software Engineering from Northeastern University. With over 3 years of experience in developing scalable applications and systems, with expertise in Java, Python, React, Angular, and cloud technologies like AWS. Recently, at Amazon Robotics, I worked on serverless architectures and AI analytics. I love solving problems and creating innovative solutions.
+            I'm a software developer with a Master's in Software Engineering from Northeastern University. With experience in developing scalable applications and systems, with expertise in Java, Python, React, Angular, and cloud technologies like AWS. Recently, at Amazon Robotics, I worked on serverless architectures and AI analytics. I love solving problems and creating innovative solutions.
           </p>
           <div className='flex mt-4'>
             <a href='https://www.linkedin.com/in/your-linkedin-profile' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>

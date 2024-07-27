@@ -45,28 +45,61 @@ export const navLinks = [
   },
 ];
 
+// const services = [
+//   {
+//     title: "Cloud Computing",
+//     icon: web,
+//   },
+//   {
+//     title: "Backend Development",
+//     icon: backend,
+//   },
+//   {
+//     title: "Database",
+//     icon: web,
+//   },
+//   {
+//     title: "Frontend Development",
+//     icon: mobile,
+//   },
+
+//   // {
+//   //   title: "Content Creator",
+//   //   icon: creator,
+//   // },
+// ];
+
 const services = [
   {
     title: "Cloud Computing",
     icon: web,
+    skills: [
+      { name: "AWS", icon: aws }, // Add icon for AWS if available
+    ],
   },
   {
     title: "Backend Development",
     icon: backend,
+    skills: [
+      { name: "Node JS", icon: nodejs }, // Node.js icon
+      { name: "MongoDB", icon: mongodb }, // Add MongoDB icon
+    ],
   },
   {
     title: "Database",
     icon: web,
+    skills: [
+      { name: "MongoDB", icon: mongodb }, // MongoDB icon
+    ],
   },
   {
     title: "Frontend Development",
     icon: mobile,
+    skills: [
+      { name: "React", icon: reactjs }, // React icon
+      { name: "Angular", icon: "path/to/angular/icon" }, // Replace with actual Angular icon path
+    ],
   },
-
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
 ];
 
 const technologies = [
@@ -139,19 +172,6 @@ const experiences = [
     ],
   },
   {
-    title: "Senior Systems Engineer",
-    company_name: "Infosys",
-    icon: infosys,
-    iconBg: "#383E56",
-    date: "Sept 2019 - Dec 2022",
-    points: [
-      "Migrated monolithic vehicle service application to cloud hosted microservices using Java, Spring MVC technologies along with web framework such as Angular",
-      "Reduced developer effort by 80% by scheduling jobs using Java Spring Cron Expression to trigger a monthly email with a calculated analytics report for authorized dealers",
-      "Implemented responsive design and ensuring cross-browser compatibility.",
-      "Participated in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Graduate Teaching Assistant",
     company_name: "Northeastern University",
     icon: neu,
@@ -163,6 +183,21 @@ const experiences = [
       "Graded assignments and provided constructive feedback to students to help them improve their understanding of the course material",
     ],
   },
+  {
+    title: "Software Engineer",
+    company_name: "Infosys",
+    icon: infosys,
+    iconBg: "#383E56",
+    date: "Sept 2019 - Dec 2022",
+    points: [
+      "Migrated Monolithic application that does not scale & takes long cycle to execute into microservices using Domain-driven design. Deployed on PaaS platform (Cloud Foundry) maintaining inter process communication & availability",
+      "Achieved 60% reduction in search latency by optimizing ElasticSearch queries and indexing.",
+      "Prepared restful API’s (Spring Integration, Spring MVC) for order configuration tool to be consumed by frontend app constructed on AngularJS. Enhanced performance of tool by 60% by integrating Gemfire Cache framework",
+      "Formulated Java Spring Cron job for analytics, enabling email notifications with attached log, reducing manual effort",
+      "Implemented a CI/CD pipeline using Jenkins, reducing the manual intervention by 60%",
+    ],
+  },
+
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",

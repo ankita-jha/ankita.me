@@ -21,15 +21,11 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
+       
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h2 className=' text-white text-[20px] font-bold'>
           {title}
-        </h3>
+        </h2>
       </div>
     </motion.div>
   </Tilt>
@@ -39,16 +35,16 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>WHO AM I & WHAT CAN YOU EXPECT HERE
+        </p>
+        <h2 className={styles.sectionHeadText}>I am Ankita - a Software Developer & Tech Enthusiast. Welcome to my Digital Library!</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-I'm a software developer with a Master's in Software Engineering from Northeastern University. With over 3 years of Experience in developing scalable applications and systems, with expertise in Java, Python, React, Angular, and cloud technologies like AWS. 
-Recently, at Amazon Robotics, I worked on serverless architectures and AI analytics.I love solving problems and creating innovative solutions.
+ Hi! I am Ankita Jha, a Software Developer with a master's degree in Software Engineering from the Northeastern University aspiring to build inspiring tech!Solving problems makes me tick, and I enjoy impacting products and providing value to customers. During college, I augmented my core CS education with courses in Computer Systems, Machine Learning, Artificial Intelligence, Security & Privacy, and Entrepreneurship. I also interned at Amazon Robotics, worked as Software Engineer at Infosys, and worked as a Teaching Assistant for an NEU Software Engineering design course. Now, I am looking for full time Software Engineering Opportunties. I enjoy engaging in and being challenged with projects that require me to work outside my comfort zone and come up with innovative solutions. The urge for better simplicity challenging the complexity of today is what drives me.
 
       </motion.p>
 
