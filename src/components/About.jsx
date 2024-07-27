@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
- Hi! I am Ankita Jha, a Software Developer with a master's degree in Software Engineering from the Northeastern University aspiring to build inspiring tech!Solving problems makes me tick, and I enjoy impacting products and providing value to customers. During college, I augmented my core CS education with courses in Computer Systems, Machine Learning, Artificial Intelligence, Security & Privacy, and Entrepreneurship. I also interned at Amazon Robotics, worked as Software Engineer at Infosys, and worked as a Teaching Assistant for an NEU Software Engineering design course. Now, I am looking for full time Software Engineering Opportunties. I enjoy engaging in and being challenged with projects that require me to work outside my comfort zone and come up with innovative solutions. The urge for better simplicity challenging the complexity of today is what drives me.
+Solving problems makes me tick, and I enjoy impacting products and providing value to customers. During college, I augmented my core CS education with courses in Computer Systems, Machine Learning, Artificial Intelligence, Security & Privacy, and Entrepreneurship. I also interned at Amazon Robotics, worked as Software Engineer at Infosys, and worked as a Teaching Assistant for an NEU Software Engineering design course. Now, I am looking for full time Software Engineering Opportunties. I enjoy engaging in and being challenged with projects that require me to work outside my comfort zone and come up with innovative solutions. The urge for better simplicity challenging the complexity of today is what drives me.
 
       </motion.p>
 
