@@ -73,12 +73,12 @@ const Hero = () => {
             Hey, <span className='text-white'> I'm Ankita</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-30`}>
-            Software Engineer | Full Stack Engineer | Cloud Engineer 
+            Software Engineer | Full Stack Engineer  
             
           </p>
           <br />
           <p className={`${styles.sectionSubText} text-white`}>
-            I'm a software developer with a Master's in Software Engineering from Northeastern University. With experience in developing scalable applications and systems, with expertise in Java, Python, React, Angular, and cloud technologies like AWS. Recently, at Amazon Robotics, I worked on serverless architectures and AI analytics. I love solving problems and creating innovative solutions.
+         I like to craft solid and scalable frontend products with great user experiences.
           </p>
           <div className='flex mt-4'>
             <a href='https://www.linkedin.com/in/your-linkedin-profile' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>

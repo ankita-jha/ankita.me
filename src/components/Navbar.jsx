@@ -42,9 +42,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            ankita &nbsp;
+          
+          <p className='text-white Apple Color Emoji text-[18px] font-bold cursor-pointer flex '>
+            Ankita &nbsp;
             <span className='sm:block hidden'> </span>
           </p>
         </Link>
