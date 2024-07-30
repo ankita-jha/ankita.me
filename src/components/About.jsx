@@ -35,7 +35,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>WHO AM I & WHAT CAN YOU EXPECT HERE!!!
+        <p className={styles.sectionSubText}>WHO AM I & WHAT CAN YOU EXPECT HERE!!!!
         </p>
         <h2 className={styles.sectionHeadText}>I am Ankita - a Software Developer & Tech Enthusiast. Welcome to my Digital Library!</h2>
       </motion.div>
