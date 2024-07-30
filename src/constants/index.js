@@ -257,7 +257,7 @@ const projects = [
   {
     name: "Travel recommendation Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project is a Travel Recommendation System built with Node.js and React, providing users with various travel recommendations. It includes features like weather forecasts, password reset via email, and CRUD operations for blogs.",
     tags: [
       {
         name: "react",
@@ -316,6 +316,35 @@ const projects = [
     ],
     image: aws,
     source_code_link: "https://github.com/ankita-jha-cloud",
+  },
+  {
+    name: "Task Master",
+    description:
+      "Taskmaster is a Full stack MERN application built with Nodejs, MongoDB, Express and React, where users can create, update, and delete tasks. Add a new task with a title and description Edit the title and description of an existing task Mark a task as completed or incomplete Delete a task from the list",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/ankita-jha/TaskMaster",
   },
 ];
 

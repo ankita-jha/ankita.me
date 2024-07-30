@@ -78,13 +78,13 @@ const Hero = () => {
           </p>
           <br />
           <p className={`${styles.sectionSubText} text-white`}>
-         I like to craft solid and scalable frontend products with great user experiences.
+         I like to craft solid and scalable applications with great user experiences.
           </p>
           <div className='flex mt-4'>
-            <a href='https://www.linkedin.com/in/your-linkedin-profile' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>
+            <a href='https://www.linkedin.com/in/jha-ankita' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>
               <FaLinkedin size={30} />
             </a>
-            <a href='https://github.com/your-github-profile' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>
+            <a href='https://github.com/ankita-jha' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>
               <FaGithub size={30} />
             </a>
             <a href='https://stackoverflow.com/users/7061287/ankita' target='_blank' rel='noopener noreferrer' className='text-white mx-2'>
