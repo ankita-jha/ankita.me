@@ -20,6 +20,7 @@ import {
   neu,
   shopify,
   carrent,
+  tripguide,
   jobit,
   aws,
   threejs,
@@ -343,7 +344,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tripguide,
     source_code_link: "https://github.com/ankita-jha/TaskMaster",
   },
 ];
